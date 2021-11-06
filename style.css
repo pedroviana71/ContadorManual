@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Sree+Krushnadevaraya&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 95%;
+    padding: 0px;
+    background-color: #e3e4d4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2c2b36;
+    margin: auto;
+    
+    
+}
+
+header{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #2c2b36;
+    margin: auto;
+    
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    height: 70vh;
+    width: 60vw;
+    flex-wrap: wrap;
+    background-color: #799496;
+    box-shadow: 0px 0px 10px rgba(56, 56, 56, 0.473);
+    border-radius: 3px;
+
+}
+
+#contador{
+    display: flex;    
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    width: 100%;
+    text-shadow: 1px 1px 3px #799496;
+    color: #49475B;
+    
+}
+.btt{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px 10px 60px;
+    margin: 20px;
+    flex-basis: 100%;
+    flex: 1 1 2em;
+    
+
+}
+
+#aumentar{
+    background-color: rgb(129, 204, 122);
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    color: #49475B;
+    box-shadow: 1px 1px 3px #79949683;
+}
+
+#diminuir{
+    background-color: rgb(211, 132, 132);
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    color: #49475B;
+    box-shadow: 1px 1px 3px #79949681;
+    
+}
+#reset{
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    border: 0px;
+    font-size: 20px;
+    color: #49475B;
+    box-shadow: 1px 1px 3px #7994968c;
+}
